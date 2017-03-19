@@ -1,0 +1,99 @@
+/* Очистка браузера начало*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td,a {
+ 	margin:0;
+ 	padding:0;
+ 	border: none;
+ }
+ 
+ img{
+ 	border: 0px;
+ }
+ 	
+ table {
+ 	border-collapse:collapse;
+ 	border-spacing:0;
+ }
+/* Очистка браузера конец */
+body {
+	background-color: black;
+	font-size: 100%;
+}
+
+ canvas {
+	padding: 0;
+    margin: auto;
+    display: block;
+    width: 43%;
+    height: 84%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+ }
+
+/* #board {
+	position: relative;
+	width: 1024px;
+	height: 863px;
+	margin: auto;
+	background: url("board.jpg") no-repeat;
+} */
+
+#messageArea {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 200%;
+	color: rgb(83, 175, 19);
+}
+
+table{
+	padding: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	width: 43%;
+	height: 84%;
+/* 	top: 98px;
+left: 173px; */
+}
+
+td {
+height: 12vh;
+padding: 1 1px;
+border: 2px solid green;
+color: green;
+}
+
+form {
+	position: fixed;
+	width: 15%;
+	bottom: 10px;
+	right: 10px;
+	padding: 0.5%;
+	background-color: rgb(83, 175, 19);
+}
+
+#guessInput {
+	background-color: rgb(152, 207, 113);
+	border-color: rgb(83, 175, 19);
+	font-size: 1em;
+	width: 85%;
+}
+
+.hit {
+	background-image:  url("ship.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 70%;
+}
+.miss {
+	background: url("miss.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 70%;
+}
